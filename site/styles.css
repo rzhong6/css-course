@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family:"Noto Sans",sans-serif;
+    background-color:white;
+    position:relative;
+}
+h1{
+    text-transform:uppercase;
+    font-weight:300;
+}
+p {
+  font-size:15px;
+}
+h5 {
+  font-size:15px;
+}
+
+.portrait{
+    width: 200px; /* width of container */
+    height:200px;
+    overflow: hidden;
+    margin:0;
+    border-radius:50%;
+    
+}
+.portrait img{
+    display:block;
+    
+}
+.portrait img{
+    margin:12.5% 0;
+    width: -75%;
+    height:auto;
+
+}
+#section-heading{
+  padding-left:15px;
+  padding-right:15px;
+  text-align:center;
+}
+#profile {
+    text-align: center;
+    padding: 30px 10px;
+    position: relative;
+}
+.descript{
+  border:50px;
+  margin-left:40px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+.home-section {
+    background-color: #fff;
+    padding: 110px 0;
+    animation: intro .3s both;
+    animation-delay: .15s;
+}
+.home-section:first-of-type{
+    padding-top:200px;
+}
+.container{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.py-0{
+    padding-bottom: 0!important;
+    padding-top: 0!important;
+}
+
+ul.edu{
+    list-style:none;
+}
+/*
+#experience{
+    background-color:rgb(182, 181, 181);
+    height:500px;
+    width:2000px;
+
+}*/
+.navbar {
+  background-color: white;
+}
+.navbar .navbar-brand{
+  font-size:30px;
+  font-weight: 600;
+  font-family: inherit;
+  color: #007bff;
+}
+.nav-item {
+  margin:20px;
+}
+
+.navbar-default .navbar-nav >.nav-item> a.nav-link.active, 
+.navbar-default .navbar-nav >.nav-item> a.nav-link.active:hover,
+ .navbar-default .navbar-nav >.nav-item> a.nav-link.active:focus {
+  color: black;
+}
+
+.fa-envelope{
+  font-size:24px;
+  margin:20px;
+}
+.fa-linkedin{
+  font-size:24px;
+  margin:20px;
+}
+.fa-instagram{
+  font-size:24px;
+  margin:20px;
+}
+
+/*********Large Device Only********/
+@media (min-width:1200px){
+    .navbar>.container .navbar-brand{
+        margin-left:100px;
+    }
+    .col-lg-4 {
+        flex: 0 0 33.33333333%;
+        max-width: 33.33333333%;
+    }
+}
+/*********Medium Device Only********/
+@media (min-width:992px) and (max-width:1199px){
+
+}
+/*********Small Device Only*********/
+@media (min-width:768px) and (max-width:991px){
+   
+}
+/*********Extra Small Device Only*******/
+@media (max-width:767 px){
+    
+}
